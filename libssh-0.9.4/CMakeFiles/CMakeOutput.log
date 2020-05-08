@@ -1,0 +1,700 @@
+The system is: Linux - 4.12.14-lp151.28.48-default - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_3a5b7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_3a5b7.dir/build.make CMakeFiles/cmTC_3a5b7.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a5b7.dir/testCCompiler.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_3a5b7.dir/testCCompiler.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_3a5b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a5b7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3a5b7.dir/testCCompiler.c.o  -o cmTC_3a5b7 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7b1e0/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7b1e0.dir/build.make CMakeFiles/cmTC_7b1e0.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b1e0.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_7b1e0.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_7b1e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b1e0.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_7b1e0.dir/CMakeCCompilerABI.c.o  -o cmTC_7b1e0 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=hsa:nvptx-none
+Target: x86_64-suse-linux
+Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,ada,go --enable-offload-targets=hsa,nvptx-none=/usr/nvptx-none, --without-cuda-driver --enable-checking=release --disable-werror --with-gxx-include-dir=/usr/include/c++/7 --enable-ssp --disable-libssp --disable-libvtv --disable-libcc1 --disable-plugin --with-bugurl=https://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --with-slibdir=/lib64 --with-system-zlib --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --with-gcc-major-version-only --enable-linker-build-id --enable-linux-futex --enable-gnu-indirect-function --program-suffix=-7 --without-system-libunwind --enable-multilib --with-arch-32=x86-64 --with-tune=generic --build=x86_64-suse-linux --host=x86_64-suse-linux
+Thread model: posix
+gcc version 7.5.0 (SUSE Linux) 
+COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/bin/
+LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7b1e0' '-mtune=generic' '-march=x86-64'
+ /usr/lib64/gcc/x86_64-suse-linux/7/collect2 -plugin /usr/lib64/gcc/x86_64-suse-linux/7/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-suse-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccG0vL3f.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7b1e0 /usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/7/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/7 -L/usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/7/../../.. CMakeFiles/cmTC_7b1e0.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-suse-linux/7/crtend.o /usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7b1e0' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_7b1e0/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_7b1e0.dir/build.make CMakeFiles/cmTC_7b1e0.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_7b1e0.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_7b1e0.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_7b1e0]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b1e0.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_7b1e0.dir/CMakeCCompilerABI.c.o  -o cmTC_7b1e0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=hsa:nvptx-none]
+  ignore line: [Target: x86_64-suse-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,ada,go --enable-offload-targets=hsa,nvptx-none=/usr/nvptx-none, --without-cuda-driver --enable-checking=release --disable-werror --with-gxx-include-dir=/usr/include/c++/7 --enable-ssp --disable-libssp --disable-libvtv --disable-libcc1 --disable-plugin --with-bugurl=https://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --with-slibdir=/lib64 --with-system-zlib --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --with-gcc-major-version-only --enable-linker-build-id --enable-linux-futex --enable-gnu-indirect-function --program-suffix=-7 --without-system-libunwind --enable-multilib --with-arch-32=x86-64 --with-tune=generic --build=x86_64-suse-linux --host=x86_64-suse-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (SUSE Linux) ]
+  ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/7/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7b1e0' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib64/gcc/x86_64-suse-linux/7/collect2 -plugin /usr/lib64/gcc/x86_64-suse-linux/7/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-suse-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccG0vL3f.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7b1e0 /usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/7/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/7 -L/usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/7/../../.. CMakeFiles/cmTC_7b1e0.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-suse-linux/7/crtend.o /usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/crtn.o]
+    arg [/usr/lib64/gcc/x86_64-suse-linux/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib64/gcc/x86_64-suse-linux/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccG0vL3f.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7b1e0] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/7] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/7]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/lib] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/lib]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/7/../../..] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/7/../../..]
+    arg [CMakeFiles/cmTC_7b1e0.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/7/crtend.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/7] ==> [/usr/lib64/gcc/x86_64-suse-linux/7]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/7/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/7/../../../../x86_64-suse-linux/lib] ==> [/usr/x86_64-suse-linux/lib]
+  collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/7/../../..] ==> [/usr/lib64]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib64/gcc/x86_64-suse-linux/7;/usr/lib64;/lib64;/usr/x86_64-suse-linux/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_b03c8/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b03c8.dir/build.make CMakeFiles/cmTC_b03c8.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b03c8.dir/feature_tests.c.o
+/usr/bin/cc   -fPIE   -std=c11 -o CMakeFiles/cmTC_b03c8.dir/feature_tests.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b03c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b03c8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b03c8.dir/feature_tests.c.o  -o cmTC_b03c8 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_5e131/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5e131.dir/build.make CMakeFiles/cmTC_5e131.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e131.dir/feature_tests.c.o
+/usr/bin/cc   -fPIE   -std=c99 -o CMakeFiles/cmTC_5e131.dir/feature_tests.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5e131
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e131.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5e131.dir/feature_tests.c.o  -o cmTC_5e131 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_39e9c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_39e9c.dir/build.make CMakeFiles/cmTC_39e9c.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39e9c.dir/feature_tests.c.o
+/usr/bin/cc   -fPIE   -std=c90 -o CMakeFiles/cmTC_39e9c.dir/feature_tests.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/feature_tests.c
+Linking C executable cmTC_39e9c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39e9c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_39e9c.dir/feature_tests.c.o  -o cmTC_39e9c 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test REQUIRED_FLAGS_WERROR succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_6d74a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_6d74a.dir/build.make CMakeFiles/cmTC_6d74a.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d74a.dir/src.c.o
+/usr/bin/cc   -DREQUIRED_FLAGS_WERROR -fPIE   -Werror -o CMakeFiles/cmTC_6d74a.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6d74a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d74a.dir/link.txt --verbose=1
+/usr/bin/cc  -DREQUIRED_FLAGS_WERROR    -rdynamic CMakeFiles/cmTC_6d74a.dir/src.c.o  -o cmTC_6d74a 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_STD_GNU99_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_63fff/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_63fff.dir/build.make CMakeFiles/cmTC_63fff.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63fff.dir/src.c.o
+/usr/bin/cc   -DWITH_STD_GNU99_FLAG -Werror -fPIE   -std=gnu99 -o CMakeFiles/cmTC_63fff.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_63fff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63fff.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_STD_GNU99_FLAG -Werror    -rdynamic CMakeFiles/cmTC_63fff.dir/src.c.o  -o cmTC_63fff 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WPEDANTIC_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_3ef1c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_3ef1c.dir/build.make CMakeFiles/cmTC_3ef1c.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ef1c.dir/src.c.o
+/usr/bin/cc   -DWITH_WPEDANTIC_FLAG -Werror -fPIE   -Wpedantic -o CMakeFiles/cmTC_3ef1c.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3ef1c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ef1c.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WPEDANTIC_FLAG -Werror    -rdynamic CMakeFiles/cmTC_3ef1c.dir/src.c.o  -o cmTC_3ef1c 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WALL_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_25540/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_25540.dir/build.make CMakeFiles/cmTC_25540.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25540.dir/src.c.o
+/usr/bin/cc   -DWITH_WALL_FLAG -Werror -fPIE   -Wall -o CMakeFiles/cmTC_25540.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_25540
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25540.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WALL_FLAG -Werror    -rdynamic CMakeFiles/cmTC_25540.dir/src.c.o  -o cmTC_25540 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WSHADOW_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_44a15/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_44a15.dir/build.make CMakeFiles/cmTC_44a15.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44a15.dir/src.c.o
+/usr/bin/cc   -DWITH_WSHADOW_FLAG -Werror -fPIE   -Wshadow -o CMakeFiles/cmTC_44a15.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_44a15
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44a15.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WSHADOW_FLAG -Werror    -rdynamic CMakeFiles/cmTC_44a15.dir/src.c.o  -o cmTC_44a15 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WMISSING_PROTOTYPES_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f28ca/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f28ca.dir/build.make CMakeFiles/cmTC_f28ca.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f28ca.dir/src.c.o
+/usr/bin/cc   -DWITH_WMISSING_PROTOTYPES_FLAG -Werror -fPIE   -Wmissing-prototypes -o CMakeFiles/cmTC_f28ca.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f28ca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f28ca.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WMISSING_PROTOTYPES_FLAG -Werror    -rdynamic CMakeFiles/cmTC_f28ca.dir/src.c.o  -o cmTC_f28ca 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WCAST_ALIGN_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_93963/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_93963.dir/build.make CMakeFiles/cmTC_93963.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93963.dir/src.c.o
+/usr/bin/cc   -DWITH_WCAST_ALIGN_FLAG -Werror -fPIE   -Wcast-align -o CMakeFiles/cmTC_93963.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_93963
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93963.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WCAST_ALIGN_FLAG -Werror    -rdynamic CMakeFiles/cmTC_93963.dir/src.c.o  -o cmTC_93963 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WERROR_ADDRESS_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_15c6c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_15c6c.dir/build.make CMakeFiles/cmTC_15c6c.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15c6c.dir/src.c.o
+/usr/bin/cc   -DWITH_WERROR_ADDRESS_FLAG -Werror -fPIE   -Werror=address -o CMakeFiles/cmTC_15c6c.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_15c6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15c6c.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WERROR_ADDRESS_FLAG -Werror    -rdynamic CMakeFiles/cmTC_15c6c.dir/src.c.o  -o cmTC_15c6c 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WSTRICT_PROTOTYPES_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_30acc/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_30acc.dir/build.make CMakeFiles/cmTC_30acc.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30acc.dir/src.c.o
+/usr/bin/cc   -DWITH_WSTRICT_PROTOTYPES_FLAG -Werror -fPIE   -Wstrict-prototypes -o CMakeFiles/cmTC_30acc.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_30acc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30acc.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WSTRICT_PROTOTYPES_FLAG -Werror    -rdynamic CMakeFiles/cmTC_30acc.dir/src.c.o  -o cmTC_30acc 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WERROR_STRICT_PROTOTYPES_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_71455/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_71455.dir/build.make CMakeFiles/cmTC_71455.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71455.dir/src.c.o
+/usr/bin/cc   -DWITH_WERROR_STRICT_PROTOTYPES_FLAG -Werror -fPIE   -Werror=strict-prototypes -o CMakeFiles/cmTC_71455.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_71455
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71455.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WERROR_STRICT_PROTOTYPES_FLAG -Werror    -rdynamic CMakeFiles/cmTC_71455.dir/src.c.o  -o cmTC_71455 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WWRITE_STRINGS_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_55bb6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_55bb6.dir/build.make CMakeFiles/cmTC_55bb6.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55bb6.dir/src.c.o
+/usr/bin/cc   -DWITH_WWRITE_STRINGS_FLAG -Werror -fPIE   -Wwrite-strings -o CMakeFiles/cmTC_55bb6.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_55bb6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55bb6.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WWRITE_STRINGS_FLAG -Werror    -rdynamic CMakeFiles/cmTC_55bb6.dir/src.c.o  -o cmTC_55bb6 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WERROR_WRITE_STRINGS_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_72fba/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_72fba.dir/build.make CMakeFiles/cmTC_72fba.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72fba.dir/src.c.o
+/usr/bin/cc   -DWITH_WERROR_WRITE_STRINGS_FLAG -Werror -fPIE   -Werror=write-strings -o CMakeFiles/cmTC_72fba.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_72fba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72fba.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WERROR_WRITE_STRINGS_FLAG -Werror    -rdynamic CMakeFiles/cmTC_72fba.dir/src.c.o  -o cmTC_72fba 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WERROR_IMPLICIT_FUNCTION_DECLARATION_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d013a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d013a.dir/build.make CMakeFiles/cmTC_d013a.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d013a.dir/src.c.o
+/usr/bin/cc   -DWITH_WERROR_IMPLICIT_FUNCTION_DECLARATION_FLAG -Werror -fPIE   -Werror-implicit-function-declaration -o CMakeFiles/cmTC_d013a.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d013a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d013a.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WERROR_IMPLICIT_FUNCTION_DECLARATION_FLAG -Werror    -rdynamic CMakeFiles/cmTC_d013a.dir/src.c.o  -o cmTC_d013a 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WPOINTER_ARITH_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_8ca4c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_8ca4c.dir/build.make CMakeFiles/cmTC_8ca4c.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ca4c.dir/src.c.o
+/usr/bin/cc   -DWITH_WPOINTER_ARITH_FLAG -Werror -fPIE   -Wpointer-arith -o CMakeFiles/cmTC_8ca4c.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8ca4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ca4c.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WPOINTER_ARITH_FLAG -Werror    -rdynamic CMakeFiles/cmTC_8ca4c.dir/src.c.o  -o cmTC_8ca4c 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WERROR_POINTER_ARITH_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e7f5a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e7f5a.dir/build.make CMakeFiles/cmTC_e7f5a.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7f5a.dir/src.c.o
+/usr/bin/cc   -DWITH_WERROR_POINTER_ARITH_FLAG -Werror -fPIE   -Werror=pointer-arith -o CMakeFiles/cmTC_e7f5a.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e7f5a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7f5a.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WERROR_POINTER_ARITH_FLAG -Werror    -rdynamic CMakeFiles/cmTC_e7f5a.dir/src.c.o  -o cmTC_e7f5a 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WDECLARATION_AFTER_STATEMENT_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_3b8d5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_3b8d5.dir/build.make CMakeFiles/cmTC_3b8d5.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b8d5.dir/src.c.o
+/usr/bin/cc   -DWITH_WDECLARATION_AFTER_STATEMENT_FLAG -Werror -fPIE   -Wdeclaration-after-statement -o CMakeFiles/cmTC_3b8d5.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3b8d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b8d5.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WDECLARATION_AFTER_STATEMENT_FLAG -Werror    -rdynamic CMakeFiles/cmTC_3b8d5.dir/src.c.o  -o cmTC_3b8d5 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WERROR_DECLARATION_AFTER_STATEMENT_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_04408/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_04408.dir/build.make CMakeFiles/cmTC_04408.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04408.dir/src.c.o
+/usr/bin/cc   -DWITH_WERROR_DECLARATION_AFTER_STATEMENT_FLAG -Werror -fPIE   -Werror=declaration-after-statement -o CMakeFiles/cmTC_04408.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_04408
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04408.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WERROR_DECLARATION_AFTER_STATEMENT_FLAG -Werror    -rdynamic CMakeFiles/cmTC_04408.dir/src.c.o  -o cmTC_04408 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WRETURN_TYPE_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c2007/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c2007.dir/build.make CMakeFiles/cmTC_c2007.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2007.dir/src.c.o
+/usr/bin/cc   -DWITH_WRETURN_TYPE_FLAG -Werror -fPIE   -Wreturn-type -o CMakeFiles/cmTC_c2007.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c2007
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2007.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WRETURN_TYPE_FLAG -Werror    -rdynamic CMakeFiles/cmTC_c2007.dir/src.c.o  -o cmTC_c2007 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WERROR_RETURN_TYPE_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_bc0c2/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_bc0c2.dir/build.make CMakeFiles/cmTC_bc0c2.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc0c2.dir/src.c.o
+/usr/bin/cc   -DWITH_WERROR_RETURN_TYPE_FLAG -Werror -fPIE   -Werror=return-type -o CMakeFiles/cmTC_bc0c2.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bc0c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc0c2.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WERROR_RETURN_TYPE_FLAG -Werror    -rdynamic CMakeFiles/cmTC_bc0c2.dir/src.c.o  -o cmTC_bc0c2 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WUNINITIALIZED_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_6edf7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_6edf7.dir/build.make CMakeFiles/cmTC_6edf7.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6edf7.dir/src.c.o
+/usr/bin/cc   -DWITH_WUNINITIALIZED_FLAG -Werror -fPIE   -Wuninitialized -o CMakeFiles/cmTC_6edf7.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6edf7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6edf7.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WUNINITIALIZED_FLAG -Werror    -rdynamic CMakeFiles/cmTC_6edf7.dir/src.c.o  -o cmTC_6edf7 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WERROR_UNINITIALIZED_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ac9a4/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ac9a4.dir/build.make CMakeFiles/cmTC_ac9a4.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac9a4.dir/src.c.o
+/usr/bin/cc   -DWITH_WERROR_UNINITIALIZED_FLAG -Werror -fPIE   -Werror=uninitialized -o CMakeFiles/cmTC_ac9a4.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ac9a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac9a4.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WERROR_UNINITIALIZED_FLAG -Werror    -rdynamic CMakeFiles/cmTC_ac9a4.dir/src.c.o  -o cmTC_ac9a4 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WIMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_b774e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b774e.dir/build.make CMakeFiles/cmTC_b774e.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b774e.dir/src.c.o
+/usr/bin/cc   -DWITH_WIMPLICIT_FALLTHROUGH_FLAG -Werror -fPIE   -Wimplicit-fallthrough -o CMakeFiles/cmTC_b774e.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b774e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b774e.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WIMPLICIT_FALLTHROUGH_FLAG -Werror    -rdynamic CMakeFiles/cmTC_b774e.dir/src.c.o  -o cmTC_b774e 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WERROR_STRICT_OVERFLOW_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_42e60/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_42e60.dir/build.make CMakeFiles/cmTC_42e60.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42e60.dir/src.c.o
+/usr/bin/cc   -DWITH_WERROR_STRICT_OVERFLOW_FLAG -Werror -fPIE   -Werror=strict-overflow -o CMakeFiles/cmTC_42e60.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_42e60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42e60.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WERROR_STRICT_OVERFLOW_FLAG -Werror    -rdynamic CMakeFiles/cmTC_42e60.dir/src.c.o  -o cmTC_42e60 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WSTRICT_OVERFLOW_2_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ff370/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ff370.dir/build.make CMakeFiles/cmTC_ff370.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff370.dir/src.c.o
+/usr/bin/cc   -DWITH_WSTRICT_OVERFLOW_2_FLAG -Werror -fPIE   -Wstrict-overflow=2 -o CMakeFiles/cmTC_ff370.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ff370
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff370.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WSTRICT_OVERFLOW_2_FLAG -Werror    -rdynamic CMakeFiles/cmTC_ff370.dir/src.c.o  -o cmTC_ff370 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WNO_FORMAT_ZERO_LENGTH_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_82e54/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_82e54.dir/build.make CMakeFiles/cmTC_82e54.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82e54.dir/src.c.o
+/usr/bin/cc   -DWITH_WNO_FORMAT_ZERO_LENGTH_FLAG -Werror -fPIE   -Wno-format-zero-length -o CMakeFiles/cmTC_82e54.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_82e54
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82e54.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WNO_FORMAT_ZERO_LENGTH_FLAG -Werror    -rdynamic CMakeFiles/cmTC_82e54.dir/src.c.o  -o cmTC_82e54 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WMISSING_FIELD_INITIALIZERS_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_bf05d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_bf05d.dir/build.make CMakeFiles/cmTC_bf05d.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf05d.dir/src.c.o
+/usr/bin/cc   -DWITH_WMISSING_FIELD_INITIALIZERS_FLAG -Werror -fPIE   -Wmissing-field-initializers -o CMakeFiles/cmTC_bf05d.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bf05d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf05d.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WMISSING_FIELD_INITIALIZERS_FLAG -Werror    -rdynamic CMakeFiles/cmTC_bf05d.dir/src.c.o  -o cmTC_bf05d 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WSIGN_COMPARE_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a50a7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a50a7.dir/build.make CMakeFiles/cmTC_a50a7.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a50a7.dir/src.c.o
+/usr/bin/cc   -DWITH_WSIGN_COMPARE_FLAG -Werror -fPIE   -Wsign-compare -o CMakeFiles/cmTC_a50a7.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a50a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a50a7.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WSIGN_COMPARE_FLAG -Werror    -rdynamic CMakeFiles/cmTC_a50a7.dir/src.c.o  -o cmTC_a50a7 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test REQUIRED_FLAGS_WFORMAT succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_84b67/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_84b67.dir/build.make CMakeFiles/cmTC_84b67.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_84b67.dir/src.c.o
+/usr/bin/cc   -DREQUIRED_FLAGS_WFORMAT -Werror -fPIE   -Wformat -o CMakeFiles/cmTC_84b67.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_84b67
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84b67.dir/link.txt --verbose=1
+/usr/bin/cc  -DREQUIRED_FLAGS_WFORMAT -Werror    -rdynamic CMakeFiles/cmTC_84b67.dir/src.c.o  -o cmTC_84b67 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WFORMAT_SECURITY_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_0f2e8/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0f2e8.dir/build.make CMakeFiles/cmTC_0f2e8.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f2e8.dir/src.c.o
+/usr/bin/cc   -DWITH_WFORMAT_SECURITY_FLAG -Werror -Wformat -fPIE   -Wformat-security -o CMakeFiles/cmTC_0f2e8.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0f2e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f2e8.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WFORMAT_SECURITY_FLAG -Werror -Wformat    -rdynamic CMakeFiles/cmTC_0f2e8.dir/src.c.o  -o cmTC_0f2e8 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WERROR_FORMAT_SECURITY_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_0d781/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0d781.dir/build.make CMakeFiles/cmTC_0d781.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d781.dir/src.c.o
+/usr/bin/cc   -DWITH_WERROR_FORMAT_SECURITY_FLAG -Werror -Wformat -fPIE   -Werror=format-security -o CMakeFiles/cmTC_0d781.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0d781
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d781.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WERROR_FORMAT_SECURITY_FLAG -Werror -Wformat    -rdynamic CMakeFiles/cmTC_0d781.dir/src.c.o  -o cmTC_0d781 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_FNO_COMMON_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_99a60/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_99a60.dir/build.make CMakeFiles/cmTC_99a60.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99a60.dir/src.c.o
+/usr/bin/cc   -DWITH_FNO_COMMON_FLAG -Werror -Wformat -fPIE   -fno-common -o CMakeFiles/cmTC_99a60.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_99a60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99a60.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_FNO_COMMON_FLAG -Werror -Wformat    -rdynamic CMakeFiles/cmTC_99a60.dir/src.c.o  -o cmTC_99a60 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_STACK_PROTECTOR_STRONG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_69e20/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_69e20.dir/build.make CMakeFiles/cmTC_69e20.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69e20.dir/src.c.o
+/usr/bin/cc   -DWITH_STACK_PROTECTOR_STRONG -fstack-protector-strong -fPIE   -o CMakeFiles/cmTC_69e20.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_69e20
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69e20.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_STACK_PROTECTOR_STRONG -fstack-protector-strong    -rdynamic CMakeFiles/cmTC_69e20.dir/src.c.o  -o cmTC_69e20 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(int argc, char **argv) { char buffer[256]; return buffer[argc]=0;}
+Performing C SOURCE FILE Test WITH_STACK_CLASH_PROTECTION succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_41bc9/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_41bc9.dir/build.make CMakeFiles/cmTC_41bc9.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41bc9.dir/src.c.o
+/usr/bin/cc   -DWITH_STACK_CLASH_PROTECTION -fstack-clash-protection -fPIE   -o CMakeFiles/cmTC_41bc9.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_41bc9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41bc9.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_STACK_CLASH_PROTECTION -fstack-clash-protection    -rdynamic CMakeFiles/cmTC_41bc9.dir/src.c.o  -o cmTC_41bc9 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(int argc, char **argv) { char buffer[256]; return buffer[argc]=0;}
+Performing C SOURCE FILE Test WITH_WNO_DEPRECATED_DECLARATIONS_FLAG succeeded with the following output:
+Change Dir: /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_cca6e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cca6e.dir/build.make CMakeFiles/cmTC_cca6e.dir/build
+gmake[1]: Entering directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cca6e.dir/src.c.o
+/usr/bin/cc   -DWITH_WNO_DEPRECATED_DECLARATIONS_FLAG -Werror -Wformat -fPIE   -Wno-deprecated-declarations -o CMakeFiles/cmTC_cca6e.dir/src.c.o   -c /home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cca6e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cca6e.dir/link.txt --verbose=1
+/usr/bin/cc  -DWITH_WNO_DEPRECATED_DECLARATIONS_FLAG -Werror -Wformat    -rdynamic CMakeFiles/cmTC_cca6e.dir/src.c.o  -o cmTC_cca6e 
+gmake[1]: Leaving directory '/home/netpipe/qtprojects/qtBruteForcer/libssh-0.9.4/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
