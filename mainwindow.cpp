@@ -73,7 +73,7 @@ void MainWindow::combinationUtil(QString arr, int n, int r, int index, QString d
         // write to the database
         _coins.append(data);
 if (gentotext == 1){
-        if(_coins.count() > 80) //if using sql use 300
+        if(_coins.count() >= _total/2) //if using sql use 300
         {
             generateCoins(); //textversion
         }else{
@@ -81,7 +81,7 @@ if (gentotext == 1){
            qDebug() << "putting in last little bit";
         }
 }else {
-    if(_coins.count() > 100) //if using sql use 300
+    if(_coins.count() >= _total/2) //if using sql use 300
     {
      //   insertCoins(); //sqlversion
     }else{
@@ -151,17 +151,20 @@ void MainWindow::on_pushButton_clicked()
 
 void MainWindow::on_crack7z_clicked()
 {
-    QProcess::execute("7za.exe x -y -p");
+ //   QProcess::execute("7za.exe x -y -p");
 
 //    QProcess process;
 //    process.start(file);
 
 //    QProcess::startDetached(QDir::homepath + "/file.exe");
+
    // 7za.exe x -y -p
 }
 
 void MainWindow::on_crack7z_2_clicked()
 {
+
+ //   QProcess::execute("7za.exe x -y -p");
    // unzip -t -P aha t.zip
 }
 
