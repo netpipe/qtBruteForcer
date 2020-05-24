@@ -18,6 +18,9 @@ public:
         void generateCoins();
     void GenerateCoins3(QString,int length,int total);
     void combinationUtil(QString arr, int n, int r, int index, QString data, int i);
+   QString GetRandomString(int length,QString chars);
+QString MainWindow::GetTotallyRandomString(int length,QString chars);
+QString WordListGenerator(int length, QString wordlist);
     //coingenerator3
     int _count;
     int _total;

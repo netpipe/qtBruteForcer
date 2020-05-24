@@ -17,6 +17,74 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+QString MainWindow::WordListGenerator(int length, QString wordlist){
+
+
+    QFile MyFile(wordlist);
+    MyFile.open(QIODevice::ReadOnly);
+    QTextStream in (&MyFile);
+    QString line;
+    QStringList wordList;
+        qDebug() << "reading wordlist";
+     do {
+        line = in.readLine();
+            wordList << line.toLatin1();
+           //  qDebug() << line.toLatin1();
+    } while (!line.isNull());
+
+    QTime time = QTime::currentTime();
+    qsrand((uint)time.msec());
+
+    QString generated;
+
+    for (int i=0; i < length;i++ ){
+        int test = qrand() % wordList.count();
+        QString word =  wordList.at( test );
+        generated.append(  word.toLatin1()+"," );
+        qDebug() << generated;
+        wordList.removeAt( test );
+    }
+return generated;
+}
+
+QString MainWindow::GetRandomString(int length,QString chars)
+{ //https://stackoverflow.com/questions/18862963/qt-c-random-string-generation/18866593
+   QString possibleCharacters(chars.toLatin1());
+   const int randomStringLength = length; //12 // assuming you want random strings of 12 characters
+
+ QTime time = QTime::currentTime();
+qsrand((uint)time.msec());
+
+   QString randomString;
+   for(int i=0; i<randomStringLength; ++i)
+   {
+       int index = qrand() % possibleCharacters.length();
+       QChar nextChar = possibleCharacters.at(index);
+       possibleCharacters.remove(index,1); //line.replace(QString(nextChar), QString(""));
+       randomString.append(nextChar);
+   }
+   return randomString;
+}
+
+QString MainWindow::GetTotallyRandomString(int length,QString chars)
+{ //https://stackoverflow.com/questions/18862963/qt-c-random-string-generation/18866593
+   QString possibleCharacters(chars.toLatin1());
+   const int randomStringLength = length; //12 // assuming you want random strings of 12 characters
+
+ QTime time = QTime::currentTime();
+qsrand((uint)time.msec());
+
+   QString randomString;
+   for(int i=0; i<randomStringLength; ++i)
+   {
+       int index = qrand() % possibleCharacters.length();
+       QChar nextChar = possibleCharacters.at(index);
+       //possibleCharacters.remove(index,1); //line.replace(QString(nextChar), QString(""));
+       randomString.append(nextChar);
+   }
+   return randomString;
+}
+
 
 void MainWindow::generateCoins() //puts coins in text file to be read in by randomizer
 {
