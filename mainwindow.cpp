@@ -127,7 +127,7 @@ void MainWindow::GenerateCoins3(QString chars,int length,int total)
 
      qDebug() << "running combo util";
 
-    combinationUtil(arr, arr.length(), _length, 0, data, 0);
+    combinationUtil(arr, _total, _length, 0, data, 0);
 }
 
 void MainWindow::combinationUtil(QString arr, int n, int r, int index, QString data, int i)
