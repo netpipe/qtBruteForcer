@@ -111,6 +111,7 @@ void MainWindow::generateCoins() //puts coins in text file to be read in by rand
 void MainWindow::GenerateCoins3(QString chars,int length,int total)
 {
     QString arr = chars;//"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890";
+    
     QString data;
    // _total = 10000;
     _total = total;
@@ -128,6 +129,7 @@ void MainWindow::GenerateCoins3(QString chars,int length,int total)
      qDebug() << "running combo util";
 
     combinationUtil(arr, _total, _length, 0, data, 0);
+    //combinationUtil(arr, arr.length(), _length, 0, data, 0);
 }
 
 void MainWindow::combinationUtil(QString arr, int n, int r, int index, QString data, int i)
